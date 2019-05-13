@@ -17,5 +17,4 @@ public class Type {
 
     private String type;
 
-
 }

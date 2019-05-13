@@ -16,6 +16,7 @@ public class Instrument {
     private long id;
 
     private String name;
+    private int availableAmount;
     //ToDo map
     private Type type;
     private Producer producer;

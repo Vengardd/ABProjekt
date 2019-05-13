@@ -17,6 +17,7 @@ public class Accessory {
     private long id;
 
     private String name;
+    private int availableAmount;
     //ToDo
     private List<Type> compatibleInstruments;
 

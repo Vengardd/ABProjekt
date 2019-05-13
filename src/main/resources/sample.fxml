@@ -1,0 +1,5 @@
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane fx:controller="com.vengard.aplikacje_bazodanowe_projekt.service.Lab11Service"
+            xmlns:fx="http://javafx.com/fxml">
+        <!-- more stuff here -->
+        </BorderPane>

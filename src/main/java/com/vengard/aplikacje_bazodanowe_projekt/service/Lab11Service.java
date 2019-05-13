@@ -5,8 +5,6 @@ import com.vengard.aplikacje_bazodanowe_projekt.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 @Service
 public class Lab11Service {
 
@@ -29,36 +27,36 @@ public class Lab11Service {
 
     public void showAllTables() {
         //Not showing M:M tables like Role-Privilege and SheetMusic-Type
-        for (Accessory a:
-             accessoryRepository.findAll()) {
+        for (Accessory a :
+                accessoryRepository.findAll()) {
             System.out.println(a);
         }
-        for (Instrument i:
-             instrumentRepository.findAll()) {
+        for (Instrument i :
+                instrumentRepository.findAll()) {
             System.out.println(i);
         }
-        for (Privilege p:
-             privilegeRepository.findAll()) {
+        for (Privilege p :
+                privilegeRepository.findAll()) {
             System.out.println(p);
         }
-        for (Producer p:
-             producerRepository.findAll()) {
+        for (Producer p :
+                producerRepository.findAll()) {
             System.out.println(p);
         }
-        for (Role r:
-             roleRepository.findAll()) {
+        for (Role r :
+                roleRepository.findAll()) {
             System.out.println(r);
         }
-        for (SheetMusic s:
-             sheetMusicRepository.findAll()) {
+        for (SheetMusic s :
+                sheetMusicRepository.findAll()) {
             System.out.println(s);
         }
-        for (Type t:
-             typeRepository.findAll()) {
+        for (Type t :
+                typeRepository.findAll()) {
             System.out.println(t);
         }
-        for (User u:
-             userRepository.findAll()) {
+        for (User u :
+                userRepository.findAll()) {
             System.out.println(u);
         }
     }
