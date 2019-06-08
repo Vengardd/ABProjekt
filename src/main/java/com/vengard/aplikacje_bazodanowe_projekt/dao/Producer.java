@@ -19,5 +19,4 @@ public class Producer {
     private String countryOfOrigin;
     private int yearOfCreation;
 
-
 }

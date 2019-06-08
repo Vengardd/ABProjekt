@@ -2,10 +2,7 @@ package com.vengard.aplikacje_bazodanowe_projekt.dao;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.List;
 
 @Entity
@@ -18,7 +15,8 @@ public class Accessory {
 
     private String name;
     private int availableAmount;
-    //ToDo
+
+    @OneToMany
     private List<Type> compatibleInstruments;
 
 }

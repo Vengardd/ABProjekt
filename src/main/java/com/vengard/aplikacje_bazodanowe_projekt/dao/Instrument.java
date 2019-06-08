@@ -2,10 +2,7 @@ package com.vengard.aplikacje_bazodanowe_projekt.dao;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 @Data
@@ -17,8 +14,10 @@ public class Instrument {
 
     private String name;
     private int availableAmount;
-    //ToDo map
+
+    @ManyToOne(fetch = FetchType.EAGER)
     private Type type;
+    @ManyToOne(fetch = FetchType.EAGER)
     private Producer producer;
 
 }

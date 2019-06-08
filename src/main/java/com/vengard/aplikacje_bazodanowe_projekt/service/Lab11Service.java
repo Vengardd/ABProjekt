@@ -2,6 +2,7 @@ package com.vengard.aplikacje_bazodanowe_projekt.service;
 
 import com.vengard.aplikacje_bazodanowe_projekt.dao.*;
 import com.vengard.aplikacje_bazodanowe_projekt.repository.*;
+import com.vengard.aplikacje_bazodanowe_projekt.user.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
